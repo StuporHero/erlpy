@@ -1,4 +1,4 @@
-from bif import init, send, spawn
+from asyncio_proto import init, send, spawn
 
 def main():
     a = spawn(running_total, 0)
